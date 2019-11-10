@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    /*не очень понятно что это*/
+}
+
+body {
+    background: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    font-size: 16;
+}
+
+header {
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    max-width: 590px;
+}
+
+.phone_photo {
+    margin: auto;
+    width: 1460px;
+    background: #ffffff;
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.photo {
+    margin: auto;
+    margin-bottom: 15px;
+    max-width: 1024px;
+}
+
+.photo img {
+    /*патч КДЕ под фри БСД - хуй знает как оно работает*/
+    width: 100%;
+}
+
+h1 {
+    font-size: 40;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 19px;
+    margin-top: 21px;
+    margin-bottom: 2px;
+}
+
+p {
+    margin-bottom: 23px;
+}
+
+a {
+    color: #477ca7;
+}
+
+.content_conteiner {
+    max-width: 590px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.citata {
+    margin-top: 57px;
+    margin-bottom: 20px;
+}
+
+footer {
+    max-width: 590px;
+    margin: 0 auto;
+    padding: 13px;
+}
